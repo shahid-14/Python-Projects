@@ -16,7 +16,7 @@ class BMICalculatorApp(App):
         layout = FloatLayout()
 
         # Background Image
-        self.background = Image(source=r'C:\Users\ELCOT\PycharmProjects\pythonProject1\fitness.jfif ', allow_stretch=True, keep_ratio=False, size_hint=(1, 1))
+        self.background = Image(source=r'C:\Users\ELCOT\PycharmProjects\pythonProject1\fitness.jfif ', allow_stretch=True, keep_ratio=False, size_hint=(1, 1)) #change the directory
         layout.add_widget(self.background)
 
         # Weight Input
