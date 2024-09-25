@@ -21,7 +21,7 @@ class PasswordGeneratorApp(App):
         layout = FloatLayout()
 
         # Background Image
-        background = Image(source=r'C:\Users\ELCOT\PycharmProjects\pythonProject1\password.jfif', allow_stretch=True, keep_ratio=False, size_hint=(1, 1))
+        background = Image(source=r'C:\Users\ELCOT\PycharmProjects\pythonProject1\password.jfif', allow_stretch=True, keep_ratio=False, size_hint=(1, 1)) #change the directory
         layout.add_widget(background)
 
         # Main Layout for Widgets
